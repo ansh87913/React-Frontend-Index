@@ -6,3 +6,48 @@
   flex-direction: column;
 }
 
+.custom{
+  border: none;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+#btn-color{
+  background-color: rgba(19, 1, 47, 0.982);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.my_grid{
+  display: grid;
+  grid-template-rows: 60px 40px 40px 60px;
+  grid-template-columns: 50px 50px 50px;
+}
+
+.flex3{
+  display: grid;
+  grid-template-columns: 150px 60px;
+}
+
+.flex2{
+  display: grid;
+}
+
+.screen{
+  background-color: rgb(14, 14, 146);
+  text-align: right;
+  color: white;
+  padding-bottom: 125px;
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: 210px;
+}
+
+.border1{
+  border: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
