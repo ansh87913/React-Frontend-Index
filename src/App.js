@@ -1,11 +1,13 @@
 import './App.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { Task } from "./components/Task_2";
+import { Task } from "./components/Task_3";
 
 function App() {
+  const arr = ["red", "green", "blue", "yellow", "pink", "skyblue", "yellow2", "purple", "pink2", "green2", "pink3", "blue2", "brown", "orange", "blue3", "yellow"];
+
   return (
     <div>
-      <Task />
+      <Task col_arr = {arr}/>
     </div>
   );
 }

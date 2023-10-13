@@ -1,5 +1,5 @@
 import {Component} from "react";
-import "../../App.css"
+import "../App.css"
 
 export class Task extends Component{
     constructor(props)
