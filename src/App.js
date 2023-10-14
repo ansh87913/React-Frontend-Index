@@ -1,6 +1,6 @@
 import './App.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { Task } from "./components/Task_5";
+import { Task } from "./components/Task";
 
 function App() {
   return (
